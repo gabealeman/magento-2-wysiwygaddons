@@ -39,8 +39,7 @@ class Config
                 $settings = [];
             }
 
-            $settings['menubar'] = true;
-            $settings['toolbar'] = 'undo redo | styleselect | fontsizeselect | link | forecolor backcolor | bold italic underline | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | table | image | code';
+            $settings['toolbar'] = 'undo redo | styleselect | fontsizeselect | link | forecolor backcolor | bold italic underline | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | table | image | code | visualblocks';
             $settings['plugins'] = 'textcolor image code visualblocks link';
             $settings['visualblocks_default_state'] =  true;
 
